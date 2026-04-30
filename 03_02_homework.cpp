@@ -9,8 +9,8 @@ void calc_average(int32_t input[])
   {
     all_sum += input[i];
   }
-  double average = all_sum / AMOUNT_NUMBERS;
-  printf("%lf", average);
+  int average = all_sum / AMOUNT_NUMBERS;
+  printf("%d", average);
 }
 
 int main(void)
